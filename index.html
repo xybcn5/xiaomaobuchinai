@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>浪漫不死，我不死</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+
+    /* 头部标题 */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+    }
+
+    .header h1 {
+      font-size: 50px;
+    }
+
+    /* 导航条 */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* 导航条链接 */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* 链接颜色修改 */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* 创建两列 */
+    /* Left column */
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
+
+    /* 右侧栏 */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+
+    /* 图像部分 */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    /* 文章卡片效果 */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* 列后面清除浮动 */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* 底部 */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+
+    /* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+    @media screen and (max-width: 800px) {
+
+      .leftcolumn,
+      .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    /* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>帅哥简介</h1>
+    <p>我是帅哥</p>
+  </div>
+
+  <div class="topnav">
+    <a href="#">帅哥</a>
+    <a href="#">帅哥</a>
+    <a href="#">帅哥</a>
+    <a href="#" style="float:right">还是帅哥</a>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>帅哥的一生</h2>
+        <h5>04年2月1日</h5>
+        <div><a href="https://imgloc.com/image/QR3S2"><img src="https://i0.imgs.ovh/2024/03/07/QR3S2.th.jpeg"
+              alt="QR3S2.jpeg" border="0" /></a></div>
+        <p>一些送给自己的话</p>
+        <p>爱无罪，但爱错人有罪</p>
+        <p>爱有两种极限</p>
+        <p>一种入地狱，一种入天堂</p>
+        <p>而我，以后会去哪一方呢</p>
+      </div>
+      <div class="card">
+        <h2>夏天马上来了，你答应陪我看的海，什么时候去呢</h2>
+        <h5>2024 年 3 月 8日</h5>
+        <div><a href="https://imgloc.com/image/QRWhV"><img src="https://i0.imgs.ovh/2024/03/07/QRWhV.md.jpeg"
+              alt="QRWhV.jpeg" border="0" /></a></div>
+        <p>你失约了</p>
+        <p>你没陪我去看的海，我会自己去看的</p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>关于我</h2>
+        <a href="https://imgloc.com/image/Qqx05"><img src="https://i0.imgs.ovh/2024/03/08/Qqx05.md.jpeg"
+            alt="Qqx05.jpeg" border="0" /></a>
+        <p>我到底是个怎样的人呢</p>
+        <p>常常我都会问自己这个问题</p>
+        <p>正如各位所见我的简介，帅哥</p>
+        <p>可是，我真的是帅哥吗，我承认我自己其实长的很一般，但我还是会恬不知耻的说我是个帅哥
+          ，正如大家所见，这是自恋且可能有点普信的我
+        </p>
+        <p>有时候深夜，我也常常会想，自己要是有钱就好了，自己要是再帅一点就好了，自己要是有本事就好了
+          ，如大家所见，这是自卑的我。
+        </p>
+        <p>也有时，我看着谈恋爱的人群，我也会想，我活了这么些年，连女生手都没牵过，要是我能正儿八经谈次恋爱就好了，
+          这，又是想谈恋爱的我。
+        </p>
+        <p>对于很多个我，有的人看待我的想法不同，但与我而言，我是千千万万，千奇百怪的我，但我也是唯一的我</p>
+      </div>
+      <div class="card">
+        <h3>世间万象本无相，有人便有了相</h3>
+        <div class="fakeimg">
+          <a href="https://imgloc.com/image/QqS3U"><img src="https://i0.imgs.ovh/2024/03/08/QqS3U.th.jpeg"
+              alt="QqS3U.jpeg" border="0" /></a>
+        </div>
+        <div class="fakeimg">
+          <a href="https://imgloc.com/image/QquQ0"><img src="https://i0.imgs.ovh/2024/03/08/QquQ0.md.jpeg"
+              alt="QquQ0.jpeg" border="0" /></a>
+        </div>
+        <div class="fakeimg">
+          <a href="https://imgloc.com/image/Qq7TC"><img src="https://i0.imgs.ovh/2024/03/08/Qq7TC.md.jpeg"
+              alt="Qq7TC.jpeg" border="0" /></a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>爱自己</h3>
+        <p>也是爱世界</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer"> </div>
+  <bgsound src="$RM7IE6I.mp3" autostart=true loop=infinite></bgsound>
+
+</body>
+
+</html>
